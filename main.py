@@ -46,7 +46,7 @@ def check_for_win():
             s += field[i][j]
             s1 += field[j][i]
         if abs(s) == 3 or abs(s1) == 3:
-            print(s, s1)
+            # print(s, s1)
             return True
 
 def main():
